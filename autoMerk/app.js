@@ -6,26 +6,7 @@ const port = 5500;
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
-
-app.get('/', (req, res) => {
-  res.render('home'); 
-});
-
-app.get('/cars', async (req, res) => {
-  const cars = await Car.find(); 
-  res.render('overview', { cars }); 
-});
-
-app.get('/about', (req, res) => {
-  res.render('about');
-});
-
-
-app.get('/contact', (req, res) => {
-  res.render('contact'); 
-});
 let carsData = [];
-
 
 axios.get('https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/main/cars.json')
   .then(response => {
@@ -35,17 +16,19 @@ axios.get('https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/
     console.error('Error fetching data:', error);
   });
 
-
 app.get('/', (req, res) => {
+  res.render('home');
+});
+
+app.get('/cars', (req, res) => {
   let filteredCars = carsData;
 
-    if (req.query.name) {
+  if (req.query.name) {
     const nameFilter = req.query.name.toLowerCase();
     filteredCars = filteredCars.filter(car => car.name.toLowerCase().includes(nameFilter));
   }
 
-
-    if (req.query.brand) {
+  if (req.query.brand) {
     const [field, order] = req.query.brand.split(':');
     filteredCars.brand((a, b) => {
       if (order === 'asc') {
@@ -56,12 +39,20 @@ app.get('/', (req, res) => {
     });
   }
 
-    if (req.query.year) {
-    const yearFilter = parseInt(req.query.year);
-    filteredCars = filteredCars.filter(car => car.year === yearFilter);
+  if (req.query.age) {
+    const ageFilter = parseInt(req.query.age);
+    filteredCars = filteredCars.filter(car => car.age === ageFilter);
   }
 
-  res.render('overview', { cars: filteredCars });
+  res.render('cars', { cars: filteredCars });
+});
+
+app.get('/about', (req, res) => {
+  res.render('about');
+});
+
+app.get('/contact', (req, res) => {
+  res.render('contact');
 });
 
 app.get('/detail/:id', (req, res) => {
@@ -69,11 +60,11 @@ app.get('/detail/:id', (req, res) => {
   if (car) {
     res.render('detail', { car });
   } else {
-    res.status(404).send('Car not found');
+    res.status(404).send('Car niet gevonden');
   }
 });
 
-app.listen(5500, () => {
+app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
   console.log(`http://localhost:${port}`);
 });

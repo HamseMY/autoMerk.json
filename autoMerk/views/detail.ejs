@@ -8,10 +8,10 @@
 </head>
 <body>
   <nav>
-    <a href="/">Home</a>
-    <a href="/">Cars</a>
-    <a href="/">About</a>
-    <a href="/">Contact</a>
+    <a href="/home">Home</a>
+    <a href="/cars">Cars</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
   </nav>
   <h1><%= car.name %></h1>
   <img src="<%= car.imageUrl %>" alt="<%= car.name %>">
@@ -20,6 +20,6 @@
   <p>Fuel Type: <%= car.fuelType %></p>
   <p>Features: <%= car.features.join(', ') %></p>
   <p>Manufacturer: <%= car.manufacturer.name %></p>
-  <a href="/detail/<%= car.manufacturer.id %>">View Manufacturer Details</a>
+  <a href="/detail/<%= car.manufacturer.id %>">Manufacturer Details</a>
 </body>
 </html>

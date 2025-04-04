@@ -2,30 +2,97 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
 }
+
 
 nav {
   background-color: #333;
-  color: white;
-  padding: 1em;
+  padding: 1rem;
+  text-align: center;
 }
 
 nav a {
-  color: rgb(0, 0, 0);
-  margin: 0 1em;
+  color: white;
+  margin: 0 15px;
   text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
+
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  margin: 20px 0;
 }
 
-table, th, td {
-  border: 1px solid black;
+table {
+  border: 1px solid #ddd;
 }
 
-th, td {
-  padding: 8px;
+th td {
+  padding: 12px;
   text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.detail-page img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.detail-page p {
+  line-height: 1.6;
+  margin: 10px 0;
 }
