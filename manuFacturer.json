@@ -1,0 +1,72 @@
+[
+    {
+        "id": 101,
+        "name": "Tesla, Inc.",
+        "isPublic": true,
+        "foundedYear": 2003,
+        "logoUrl": "https://example.com/logos/tesla-logo.png"
+    },
+    {
+        "id": 102,
+        "name": "Ford Motor Company",
+        "isPublic": true,
+        "foundedYear": 1903,
+        "logoUrl": "https://example.com/logos/ford-logo.png"
+    },
+    {
+        "id": 103,
+        "name": "Toyota Motor Corporation",
+        "isPublic": true,
+        "foundedYear": 1937,
+        "logoUrl": "https://example.com/logos/toyota-logo.png"
+    },
+    {
+        "id": 104,
+        "name": "BMW AG",
+        "isPublic": true,
+        "foundedYear": 1916,
+        "logoUrl": "https://example.com/logos/bmw-logo.png"
+    },
+    {
+        "id": 105,
+        "name": "Audi AG",
+        "isPublic": true,
+        "foundedYear": 1909,
+        "logoUrl": "https://example.com/logos/audi-logo.png"
+    },
+    {
+        "id": 106,
+        "name": "Honda Motor Co., Ltd.",
+        "isPublic": true,
+        "foundedYear": 1948,
+        "logoUrl": "https://example.com/logos/honda-logo.png"
+    },
+    {
+        "id": 107,
+        "name": "Volkswagen AG",
+        "isPublic": true,
+        "foundedYear": 1937,
+        "logoUrl": "https://example.com/logos/vw-logo.png"
+    },
+    {
+        "id": 108,
+        "name": "Mercedes-Benz AG",
+        "isPublic": true,
+        "foundedYear": 1926,
+        "logoUrl": "https://example.com/logos/mercedes-logo.png"
+    },
+    {
+        "id": 109,
+        "name": "Chevrolet",
+        "isPublic": true,
+        "foundedYear": 1911,
+        "logoUrl": "https://example.com/logos/chevrolet-logo.png"
+    },
+    {
+        "id": 110,
+        "name": "Nissan Motor Co., Ltd.",
+        "isPublic": true,
+        "foundedYear": 1933,
+        "logoUrl": "https://example.com/logos/nissan-logo.png"
+    }
+]

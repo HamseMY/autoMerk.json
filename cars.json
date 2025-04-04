@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Tesla Model S",
+        "description": "De Tesla Model S is een volledig elektrische vijfdeurs liftback sedan van Tesla, Inc.",
+        "age": 2,
+        "isActive": true,
+        "manufactureDate": "2021-03-15",
+        "imageUrl": "https://raw.githubusercontent.com/HamseMY/AutoMerk-json/refs/heads/main/image1.jpg",
+        "fuelType": "Electric",
+        "features": ["Autopilot", "Keyless Entry", "Panoramic Roof"],
+        "manufacturer": {
+            "id": 101,
+            "name": "Tesla, Inc.",
+            "isPublic": true,
+            "foundedYear": 2003,
+            "logoUrl": "https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/main/logoUrl/image.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ford Mustang",
+        "description": "De Ford Mustang is een iconische Amerikaanse muscle car die sinds 1964 wordt geproduceerd.",
+        "age": 5,
+        "isActive": true,
+        "manufactureDate": "2018-07-22",
+        "imageUrl": "https://raw.githubusercontent.com/HamseMY/AutoMerk-json/refs/heads/main/image2.jpg",
+        "fuelType": "Gasoline",
+        "features": ["V8 Engine", "Leather Seats", "Rear Wheel Drive"],
+        "manufacturer": {
+            "id": 102,
+            "name": "Ford Motor Company",
+            "isPublic": true,
+            "foundedYear": 1903,
+            "logoUrl": "https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/main/logoUrl/image2.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Toyota Prius",
+        "description": "De Toyota Prius is een hybride auto die bekend staat om zijn brandstofefficiëntie.",
+        "age": 4,
+        "isActive": true,
+        "manufactureDate": "2019-05-30",
+        "imageUrl": "https://raw.githubusercontent.com/HamseMY/AutoMerk-json/refs/heads/main/image3.jpg",
+        "fuelType": "Hybrid",
+        "features": ["Eco Mode", "Touchscreen Display", "Lane Assist"],
+        "manufacturer": {
+            "id": 103,
+            "name": "Toyota Motor Corporation",
+            "isPublic": true,
+            "foundedYear": 1937,
+            "logoUrl": "https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/main/logoUrl/image3.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "name": "BMW 3 Series",
+        "description": "De BMW 3 Series is een compacte executive car die bekend staat om zijn rijplezier.",
+        "age": 3,
+        "isActive": true,
+        "manufactureDate": "2020-09-10",
+        "imageUrl": "https://raw.githubusercontent.com/HamseMY/AutoMerk-json/refs/heads/main/image4.jpg",
+        "fuelType": "Diesel",
+        "features": ["Sport Mode", "Heated Seats", "Navigation System"],
+        "manufacturer": {
+            "id": 104,
+            "name": "BMW AG",
+            "isPublic": true,
+            "foundedYear": 1916,
+            "logoUrl": "https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/main/logoUrl/image4.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Audi A4",
+        "description": "De Audi A4 is een compacte executive car die luxe en prestaties combineert.",
+        "age": 1,
+        "isActive": true,
+        "manufactureDate": "2022-01-20",
+        "imageUrl": "https://raw.githubusercontent.com/HamseMY/AutoMerk-json/refs/heads/main/image5.jpg",
+        "fuelType": "Gasoline",
+        "features": ["Quattro All-Wheel Drive", "Virtual Cockpit", "Bang & Olufsen Sound System"],
+        "manufacturer": {
+            "id": 105,
+            "name": "Audi AG",
+            "isPublic": true,
+            "foundedYear": 1909,
+            "logoUrl": "https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/main/logoUrl/image5.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Honda Civic",
+        "description": "De Honda Civic is een compacte auto die bekend staat om zijn betrouwbaarheid en zuinigheid.",
+        "age": 6,
+        "isActive": true,
+        "manufactureDate": "2017-11-05",
+        "imageUrl": "https://raw.githubusercontent.com/HamseMY/AutoMerk-json/refs/heads/main/image6.jpg",
+        "fuelType": "Gasoline",
+        "features": ["Eco Assist", "Apple CarPlay", "Honda Sensing"],
+        "manufacturer": {
+            "id": 106,
+            "name": "Honda Motor Co., Ltd.",
+            "isPublic": true,
+            "foundedYear": 1948,
+            "logoUrl": "https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/main/logoUrl/image6.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Volkswagen Golf",
+        "description": "De Volkswagen Golf is een compacte auto die al decennia lang populair is in Europa.",
+        "age": 4,
+        "isActive": true,
+        "manufactureDate": "2019-08-12",
+        "imageUrl": "https://raw.githubusercontent.com/HamseMY/AutoMerk-json/refs/heads/main/image7.jpg",
+        "fuelType": "Gasoline",
+        "features": ["DSG Transmission", "Digital Cockpit", "LED Headlights"],
+        "manufacturer": {
+            "id": 107,
+            "name": "Volkswagen AG",
+            "isPublic": true,
+            "foundedYear": 1937,
+            "logoUrl": "https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/main/logoUrl/image7.jpg"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Mercedes-Benz C-Class",
+        "description": "De Mercedes-Benz C-Class is een luxe compacte executive car die bekend staat om zijn comfort.",
+        "age": 2,
+        "isActive": true,
+        "manufactureDate": "2021-06-18",
+        "imageUrl": "https://raw.githubusercontent.com/HamseMY/AutoMerk-json/refs/heads/main/image8.jpg",
+        "fuelType": "Diesel",
+        "features": ["Ambient Lighting", "Burmester Sound System", "Air Suspension"],
+        "manufacturer": {
+            "id": 108,
+            "name": "Mercedes-Benz AG",
+            "isPublic": true,
+            "foundedYear": 1926,
+            "logoUrl": "https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/main/logoUrl/image8.jpg"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Chevrolet Corvette",
+        "description": "De Chevrolet Corvette is een iconische Amerikaanse sportwagen die bekend staat om zijn prestaties.",
+        "age": 3,
+        "isActive": true,
+        "manufactureDate": "2020-04-25",
+        "imageUrl": "https://raw.githubusercontent.com/HamseMY/AutoMerk-json/refs/heads/main/image9.jpg",
+        "fuelType": "Gasoline",
+        "features": ["V8 Engine", "Carbon Fiber Roof", "Magnetic Ride Control"],
+        "manufacturer": {
+            "id": 109,
+            "name": "Chevrolet",
+            "isPublic": true,
+            "foundedYear": 1911,
+            "logoUrl": "https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/main/logoUrl/image9.jpg"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Nissan Leaf",
+        "description": "De Nissan Leaf is een volledig elektrische auto die bekend staat om zijn betaalbaarheid en praktische ontwerp.",
+        "age": 5,
+        "isActive": true,
+        "manufactureDate": "2018-02-14",
+        "imageUrl": "https://raw.githubusercontent.com/HamseMY/AutoMerk-json/refs/heads/main/image10.jpg",
+        "fuelType": "Electric",
+        "features": ["ProPILOT Assist", "e-Pedal", "Battery Heating System"],
+        "manufacturer": {
+            "id": 110,
+            "name": "Nissan Motor Co., Ltd.",
+            "isPublic": true,
+            "foundedYear": 1933,
+            "logoUrl": "https://raw.githubusercontent.com/HamseMY/autoMerken.json/refs/heads/main/logoUrl/image10.jpg"
+        }
+    }
+]

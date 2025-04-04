@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overview</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <nav>
+    <a href="/">cars</a>
+  </nav>
+  <h1>Car Overview</h1>
+  <form action="/" method="get">
+    <input type="text" name="name" placeholder="Filter by name">
+    <button type="submit">Filter</button>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th><a href="?brand=name:asc">Name</a></th>
+        <th><a href="?brand=age:asc">Age</a></th>
+        <th><a href="?brand=fuelType:asc">Fuel Type</a></th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% cars.forEach(car => { %>
+        <tr>
+          <td><%= car.name %></td>
+          <td><%= car.age %></td>
+          <td><%= car.fuelType %></td>
+          <td><a href="/detail/<%= car.id %>">View Details</a></td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>
+</html>
+
+
