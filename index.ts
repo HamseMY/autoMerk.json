@@ -17,7 +17,7 @@ function displayMenu() {
       viewAllData();
       break;
     case '2':
-      filterById();
+      filterById()
       break;
     case '3':
       process.exit(0);

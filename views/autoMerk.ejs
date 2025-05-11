@@ -1,0 +1,57 @@
+<%- include('partials/head.ejs') %>
+<body>
+  <%- include('partials/nav.ejs') %>
+  <main main-detail>
+    <section class="detail-section">
+      <section> 
+        <h1 class="page-title"> AutoMerken</h1>
+        <p class="pafe-subtitle"> Bekijk hier alle autoMerken</p>
+      </section>
+
+      <section class="filter-section">
+        <input type="text" class="search-input" placeholder="Zoek hier op merk of de model" id="search-input">
+        <select class="filter-select">
+          <option value="Actief">Actief</option>
+          <option value="Inactief">Inactief</option>
+          <option value="Alle">Alle</option>
+        </select>
+        <select class="filter-select">
+          <option value="Al fuelType">Alle fuelType</option>
+          <option value="Electric">Electrische</option>
+          <option value="Hybride">Hybride</option>
+          <option value="gasoline">Benzine</option>
+        </select>
+      </section>
+
+      <section class="table-section">
+        <table class="detail-table">
+          <thead>
+            <tr>
+              <th>Merk & Model</th>
+              <th>FabricatieDatum</th>
+              <th>fuelType</th>
+              <th>features</th>
+              <th>Status</th>
+              <th>Acties</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <section class="brand-info">
+                  <section class="brand-logo">
+                    <img src="/public/assets/logoUrl/image.jpg" alt="">
+                  </section>
+
+                </section>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+    </section>
+  </main>
+</body>
+</html>
+<%- include('partials/footer.ejs') %>
+<%- include('partials/chevronUp.ejs') %>
